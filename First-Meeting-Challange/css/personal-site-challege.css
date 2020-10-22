@@ -37,7 +37,13 @@ h2 {
     padding: 10px 0;
 }
 
-p { line-height: 2; }
+h3 {
+    color: var(--headline-secondary-color);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+}
+
+p { line-height: 2; font-size: large; }
   
 hr {
     border: dotted var(--hr-color) 6px;
