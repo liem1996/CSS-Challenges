@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "run:server": "live-server",
-    "compile:sass": "npm run scss && npm run scss -- -w",
+    "compile:sass": "node-sass",
     "start": "parallelshell \"npm run compile:sass\" \"npm run serve\""
   },
   "repository": {
