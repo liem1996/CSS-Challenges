@@ -1,7 +1,7 @@
 
 # Chat App
 
-> This is the one of The Third meeting CSS & HTML challenges -> pairs competition.
+> This is the one of The Third meeting CSS & HTML challenges -> Toggle Button.
 
 ---
 
