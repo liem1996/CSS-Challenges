@@ -1,0 +1,161 @@
+
+:root {
+    --background-color: #f6f6fe;
+    --main-text-color: #6d708d;
+    --toggle-option-text: #b3b5c6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+    background-color: var(--background-color);
+    color: var(--main-text-color);
+    text-align: center;
+}
+
+.top-decoration {
+    position: absolute;
+    right:0;
+    width: 35rem;
+    height: 70rem;
+    background-image: url('../images/bg-top.svg');
+    background-repeat: no-repeat;
+}
+
+.bottom-decoration {
+    position: absolute;
+    left:0;
+    bottom: 0;
+    width: 40rem;
+    height: 30rem;
+    background-image: url('../images/bg-bottom.svg');
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    padding-top: 35px;
+}
+
+.title {
+    font-size: 1.75em;
+    margin: 4rem 0;
+}
+
+.option {
+    display: inline-block;
+    color: var(--toggle-option-text);
+}
+
+#toggler {
+    width: 9rem;
+}
+
+
+.styled {
+    position: absolute;
+    top: 14.1rem;
+    left: 74rem;
+    border-radius: 10rem;
+    background-image: linear-gradient(to right, #a3a8f0, #696fdd);
+    width: 6rem;
+    height: 3rem;
+    content: "";
+    transition: all .2s ease-in;
+    cursor: pointer;
+}
+
+.styled::after {
+    content: '';
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 10rem;
+    background-color: white;
+    position: absolute;
+    top: 0.2rem;
+    left: 0.3rem;
+    transition: all .2s;
+    cursor: pointer;
+}
+
+#toggler:checked + .styled::after {
+    left: 3rem;
+}
+
+#toggler:active + .styled::after {
+    width: 3rem;
+}
+
+.pricing-plan {
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.basic, .professional,.master {
+    border-radius: 8px;
+    padding: 4rem;
+    background: white;
+    box-shadow: 2px 8px 10px 10px rgba(0,0,0,.1);
+    z-index: 1;
+}
+
+.professional {
+    height: 40rem;
+    background-image: linear-gradient(to right, #a3a8f0, #696fdd);
+    color: white;
+    padding: 5rem 4rem 0;
+}
+
+.basic p, .professional p, .master p {
+    border-bottom: 0.5px solid #b3b5c6;
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+
+.basic .price, .professional .price, .master .price {
+    font-size: 4em;
+}
+
+#toggler:checked ~ .pricing-plan > .basic > .price-1::after {
+    content: "19.99";
+    margin: 0 1rem;
+}
+
+#toggler:checked ~ .pricing-plan > .professional > .price-2::after {
+    content: "24.99";
+    margin: 0 1rem;
+}
+
+#toggler:checked ~ .pricing-plan > .master > .price-3::after {
+    content: "39.99";
+    margin: 0 1rem;
+}
+
+.price-1::after {
+    content: '199.99';
+    font-size: 5rem;
+}
+
+.price-2::after {
+    content: '249.99';
+    font-size: 5rem;
+}
+
+.price-3::after {
+    content: '399.99';
+    font-size: 5rem;
+}
