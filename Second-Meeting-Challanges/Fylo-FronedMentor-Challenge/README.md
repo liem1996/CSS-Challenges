@@ -53,7 +53,7 @@ Please fill free to use this style guide to complete the task.
 
 ## Preview
 
-![!preview](./design/desktop-preview.jpg)
+![!preview](./design/desktop-design.jpg)
 
 **GOOD LUCK!**🚀
 
