@@ -142,9 +142,9 @@ body {
 .progress-bar__circle {
     position: absolute;
     top:0.2rem;
-    left: 74%;
+    left: 73%;
     height: 80%;
-    width: 1.6rem;
+    width: 1.4rem;
     border-radius: 15rem;
     background-color: white;
     z-index: 1;
@@ -165,3 +165,43 @@ body {
 .big-text { font-size: 3rem; color: black; }
 
 .display-border { border: 1px solid red; }
+
+@media screen and (max-width: 600px) {
+    body{
+        background-image: url('../assets/bg-mobile.png');
+        background-size: cover;
+    }
+
+    .fluid-box--2 {
+        text-align: center;
+    }
+
+    .text-bottom {
+        text-align: left;
+        margin-bottom: 2rem;
+    }
+
+    .progress-bar {
+        height: 1.5rem;
+    }
+
+    .progress-bar__circle {
+        left: 70%;
+        width: 1rem;
+    }
+
+    .floating-text {
+        position: absolute;
+        top: 80%;
+        right: 25%;
+        padding: 1rem 2rem;
+        border-radius: 1rem;
+        color: var(--text-color-1);
+        background-color: var(--text-color-2);
+        z-index: 2;
+    }
+
+    .floating-text::before {
+        display: none;
+    }
+}

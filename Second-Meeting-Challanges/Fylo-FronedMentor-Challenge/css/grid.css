@@ -27,3 +27,26 @@
     width: calc( 
         (2 * ((100% - 2 * var(--col-gap)) / 3)) + var(--col-gap));
 }
+
+@media screen and (max-width: 600px) {
+    .row {
+        max-width: 100%;
+    }
+
+    [class ^= 'col-'] {
+        float: none;
+        margin: 0 auto;
+    }
+
+    [class ^= 'col-']:not(:last-child) {
+        margin-right: auto;
+    }
+    
+    .col-1-of-3 {
+        width: 90%;
+    }
+    
+    .col-2-of-3 {
+        width: 90%;
+    }
+}
