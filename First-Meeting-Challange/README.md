@@ -1,11 +1,37 @@
 
 # Personal Site Challenge
 
-![!preview](./asset/Design-preview.png)
+> This is the first meeting CSS challenge -> Personal Site ( you can see a preview in the button of the page ).
+
+---
+
+### Table of Contents
+
+- [Challenge Languages](#Languages)
+- [Instructions](#Instructions)
+- [Style Guide](#Style-Guide)
+- [Preview](#Preview)
+
+---
+
+## Languages
+
+* HTML
+* CSS
+
+---
+
+## Instructions
+
+[] Clone this repository.
+[] Checkout to the starting-files branch
+[] Try to mimic the following site ( listed bellow ).
 
 ---
 
 ## STYLE GUIDE: 
+
+Please fill free to use this style guide to complete the task.
 
 ### Colors: 
     header background = #E4F9F5
@@ -25,4 +51,10 @@
 ### Positions: 
     top cloud = right: 300px, top: 40px
     bottom cloud = left: 250px, bottom: 300px
+
+---
+
+## Preview
+
+![!preview](./asset/Design-preview.png)
 
