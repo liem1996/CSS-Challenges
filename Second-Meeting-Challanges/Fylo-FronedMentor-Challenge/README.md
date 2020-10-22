@@ -26,6 +26,7 @@
 - [X] Clone this repository.
 - [X] Checkout to the starting-files branch
 - [X] Try to mimic the site listed bellow without using flew-box or grid layouts ( you will have to build float based grid ).
+- [X] (optional) mimic the mobile design as well for mobile users.
 
 ---
 
