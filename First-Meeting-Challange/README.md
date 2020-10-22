@@ -23,9 +23,9 @@
 
 ## Instructions
 
-- [ ] Clone this repository.
-- [ ] Checkout to the starting-files branch
-- [ ] Try to mimic the following site ( listed bellow ).
+- [X] Clone this repository.
+- [X] Checkout to the starting-files branch
+- [X] Try to mimic the following site ( listed bellow ).
 
 ---
 
