@@ -9,6 +9,7 @@
 
 - [Challenge Languages](#Languages)
 - [Instructions](#Instructions)
+- [Style Guild](#Style-Guide)
 - [Preview](#Preview-And-Style-Guild)
 
 ---
@@ -31,7 +32,17 @@
 
 ---
 
-## Preview And Style Guild
+## Style Guild
+
+### Colors:
+    left decoration = gradient hsl(293, 100%, 63%) 33% to hsl(264, 100%, 61%) 66%
+    right decoration = hsl(206, 6%, 79%)
+    HeadLine = hsl(271, 36%, 24%)
+    text = hsl(270, 7%, 64%)
+    
+---
+
+## Preview
 
 ![!preview](./design/chat-app-preview.png)
 
