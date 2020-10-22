@@ -1,0 +1,56 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html { font-size: 62.5%; }
+
+body {
+    box-sizing: border-box;
+    background-color: hsl(270, 20%, 96%);
+}
+
+.first-decoration {
+    position: absolute;
+    top: 0;
+    left: -10rem;
+    background-image: linear-gradient(to bottom,  hsl(293, 100%, 63%), hsl(264, 100%, 61%),  hsl(264, 100%, 61%));
+    width: 50rem;
+    height: 90vh;
+    opacity: 0.6;
+    border-radius: 0 0 30rem 30rem;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50rem;
+}
+
+h1 {
+    font-size: 5rem;
+    margin-bottom: 2rem;
+    color: hsl(271, 36%, 24%);
+    font-family: serif;
+}
+
+p {
+    font-size: medium;
+    color: hsl(270, 7%, 64%);
+    font-family: sans-serif;
+}
+
+.second-decoration {
+    position: absolute;
+    bottom: 0;
+    right: -10rem;
+    background-color: hsl(206, 6%, 79%);
+    opacity: 0.3;
+    width: 50rem;
+    height: 90vh;
+    border-radius: 30rem 30rem 0 0;
+}
