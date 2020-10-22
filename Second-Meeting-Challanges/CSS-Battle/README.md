@@ -1,7 +1,7 @@
 
 # CSS Battle Challenges
 
-> This is the two of Second meeting CSS & HTML challenges -> CSS Battle Challenges (you can see the previews in the bottom of the page).
+> Part of the Second meeting CSS & HTML challenges -> CSS Battle Challenges (you can see the previews in the bottom of the page).
 
 ---
 
