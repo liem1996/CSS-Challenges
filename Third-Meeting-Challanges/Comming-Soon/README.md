@@ -23,12 +23,12 @@
 
 ## Instructions
 
-- [X] Clone this repository.
-- [X] Checkout to the starting-files branch
-- [X] Choose a partner.
-- [X] Decide who will write the desktop-CSS and who will write the html + mobile-CSS.
-- [X] You have 5 minuets to plan the theoretical structure of the site.
-- [X] Try and duplicate the site listed bellow each one of you have 30 minuets to complete his part.
+- [ ] Clone this repository.
+- [ ] Checkout to the starting-files branch
+- [ ] Choose a partner.
+- [ ] Decide who will write the desktop-CSS and who will write the html + mobile-CSS.
+- [ ] You have 5 minuets to plan the theoretical structure of the site.
+- [ ] Try and duplicate the site listed bellow each one of you have 30 minuets to complete his part.
 
 ---
 
