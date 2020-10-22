@@ -1,0 +1,24 @@
+{
+  "name": "css-challanges",
+  "version": "1.0.0",
+  "description": "First, second and third meeting challenges in CSS",
+  "main": "index.html",
+  "scripts": {
+    "run:server": "live-server",
+    "compile:sass": "npm run scss && npm run scss -- -w",
+    "start": "parallelshell \"npm run compile:sass\" \"npm run serve\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ColmanDevClub/CSS-Challenges.git"
+  },
+  "author": "Dev Club",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ColmanDevClub/CSS-Challenges/issues"
+  },
+  "homepage": "https://github.com/ColmanDevClub/CSS-Challenges#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
