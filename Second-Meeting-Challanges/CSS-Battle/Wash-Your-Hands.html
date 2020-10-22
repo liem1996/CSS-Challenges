@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Wash Your Hands Challenge </title>
+        <style>
+            /* Do Not Change */
+            body {
+                background-color: black;
+            }
+
+            .working-canvas {
+                border: 1px solid #dd6b4d;
+                width: 400px;
+                height: 300px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+            /* Change the code from here */
+            .soap-wrapper {
+                position: relative;
+                background-color: #293462;
+                width: 100%;
+                height: 100%;
+                z-index: -2;
+            }
+
+            .soap {
+                width:200px;
+                margin: auto auto;
+                position: relative;
+                top: 90px;
+            }
+            
+            .color-1 {
+                border-radius: 20px;
+                overflow:hidden;
+                width: 200px;
+                height: 100px;
+                background: #FE5F55;
+                z-index: 1;
+            }
+            
+            .color-1::before {
+                content:'';
+                width:100%;
+                border-radius: 20px;
+                height:100%;
+                position: absolute;
+                background: #A64942;
+                top: 20px;
+                left: 0;
+                z-index: -1;
+            }
+            
+            .eclipse {
+                position: absolute;
+                top: 49.5%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                width: 140px;
+                height: 40px;
+                border-radius: 20px;
+                background: #A64942;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="working-canvas">
+            <div class="soap-wrapper">
+                <div class='soap'>
+                    <div class='color-1'>
+                      <div class='eclipse'> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Wash Your Hands Challenge </title>
+        <style>
+            /* Do Not Change */
+            body {
+                background-color: black;
+            }
+
+            .working-canvas {
+                border: 1px solid #dd6b4d;
+                width: 400px;
+                height: 300px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+            /* Change the code from here */
+            .corona-wrapper {
+                padding: 0;
+                position: relative;
+                width: 100%;
+                height: 100%;
+                z-index: -2;
+                background: #1A4341;
+            }
+            
+            .corona {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 100px;
+                height: 100px;
+                border-radius: 10rem;
+                background: #F3AC3C;
+            }
+
+            .line { 
+                position: absolute;
+                background: #F3AC3C;
+                border-radius: 10px;
+                width: 10px;
+                height: 180px;
+                bottom:-30px;
+                left:45px
+            }
+
+            .line-2 { transform: rotate(60deg) translate(8.5px, -5px); }
+            
+            .line-3 { transform: rotate(120deg) translate(8.5px, -15px); }
+            
+            .circle { 
+                position: absolute;
+                 background:#998235;
+                  border-radius: 10rem;
+                   z-index: 1;
+            }
+   
+            .circle-1 {
+                top: 20px;
+                right: 20px;
+                width: 10px;
+                height: 10px;
+            }
+            
+            .circle-2 {
+                top: 20px;
+                left: 20px;
+                width: 30px;
+                height: 30px;
+            }
+            
+            .circle-3 {
+                bottom: 15px;
+                right: 40px;
+                width: 20px;
+                height: 20px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="working-canvas">
+            <div class="corona-wrapper">
+                <div class="corona">
+                    <div class="line"></div>
+                    <div class="line line-2"></div>
+                    <div class="line line-3"></div>
+                    <div class="circle circle-1"></div>
+                    <div class="circle circle-2"></div>
+                    <div class="circle circle-3"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
