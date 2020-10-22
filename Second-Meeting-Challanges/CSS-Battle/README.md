@@ -30,8 +30,11 @@
 
 ## Preview
 
-![!preview1](./design/corona-preview.png)
-![!preview2](./design/wash-your-hands-preview.png)
+### First Challenge
+![!corona](./design/corona-preview.png)
+
+### Second Challenge
+![!wash your hands](./design/wash-your-hands-preview.png)
 
 **GOOD LUCK!**🚀
 
