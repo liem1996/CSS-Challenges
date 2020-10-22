@@ -23,9 +23,9 @@
 
 ## Instructions
 
-- [ ] Clone this repository.
-- [ ] Checkout to the starting-files branch
-- [ ] Try to mimic the site listed bellow without using flew-box or grid layouts ( you will have to build float based grid ).
+- [X] Clone this repository.
+- [X] Checkout to the starting-files branch
+- [X] Try to mimic the site listed bellow without using flew-box or grid layouts ( you will have to build float based grid ).
 
 ---
 

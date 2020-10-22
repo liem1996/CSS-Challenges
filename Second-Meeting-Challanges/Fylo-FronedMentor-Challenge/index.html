@@ -1,22 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Fylo data storage component</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <!-- css files -->
+    <link rel="stylesheet" href="./css/index.css">
+
+    <title>Fylo data storage component</title>
 </head>
 
 <body>
 
-  You’ve used 815 GB of your storage
+    <div class="container ">
+        <div class="row ">
+            <div class="col-1-of-3 ">
+                <div class="fluid-box fluid-box--1">
+                    <img src="./assets/logo.svg" alt="Fylo logo">
+                    <div class="icon-list">
+                        <div class="icon-item">
+                             <img src="./assets/icon-document.svg" alt="document icon">
+                        </div>
+                        <div class="icon-item">
+                            <img src="./assets/icon-folder.svg" alt="folder icon">
+                        </div>
+                        <div class="icon-item">
+                            <img src="./assets/icon-upload.svg" alt="upload icon">
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-2-of-3 ">
+                <div class="fluid-box fluid-box--2">
+                    <div class="floating-text">
+                        <p>
+                            <span class='big-text bold-text'> 185 </span>
+                            <span class='bold-text'> GB Left </span> 
+                        </p>
+                    </div>
+                    <div class="text">
+                        <p> You’ve used <span class="bold-text"> 815 GB </span> of your storage </p>
+                    </div>
 
-  185 GB Left
+                    <div class="progress-bar">
+                        <div class="progress-bar__progress"></div>
+                        <div class="progress-bar__circle"></div>
+                    </div>
+                    <div class="text-bottom">
+                        <span> 0 GB </span>
+                        <span class='right-align'> 1000 GB </span>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
   
-  0 GB
-  1000 GB
+
+  
   
 </body>
 </html>
