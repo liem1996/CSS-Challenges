@@ -1,7 +1,7 @@
 
 # Personal Site Challenge
 
-> This is the first meeting CSS challenge -> Personal Site ( you can see a preview in the button of the page ).
+> This is the first meeting CSS & HTML challenge -> Personal Site ( you can see a preview in the bottom of the page ).
 
 ---
 
