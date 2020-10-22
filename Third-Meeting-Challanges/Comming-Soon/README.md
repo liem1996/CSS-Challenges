@@ -49,6 +49,10 @@
 
 ## Preview
 
-![!preview](./design/chat-app-preview.png)
+### Desktop
+![!preview](./design/desktop-design.jpg)
+
+### Mobile
+![!preview](./design/mobile-design.jpg)
 
 **GOOD LUCK!**🚀
