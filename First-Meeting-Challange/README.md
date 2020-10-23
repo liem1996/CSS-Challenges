@@ -34,6 +34,7 @@
 Please fill free to use this style guide to complete the task.
 
 first gif = https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif
+<br />
 second gif = https://media.giphy.com/media/ukMiDlCmdv2og/giphy.gif 
 
 ### Colors: 
