@@ -33,6 +33,9 @@
 
 Please fill free to use this style guide to complete the task.
 
+first gif = https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif
+second gif = https://media.giphy.com/media/ukMiDlCmdv2og/giphy.gif 
+
 ### Colors: 
     header background = #E4F9F5
     footer background = #66BFBF
