@@ -48,7 +48,7 @@ Please fill free to use this style guide to complete the task.
 
 ### Positions: 
     Row Width = 80%
-    Col Gap: 32px;
+    Col Gap = 32px;
 
 ---
 
