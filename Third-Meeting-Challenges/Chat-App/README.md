@@ -39,7 +39,10 @@
     right decoration = hsl(206, 6%, 79%)
     HeadLine = hsl(271, 36%, 24%)
     text = hsl(270, 7%, 64%)
-    
+
+### Typography
+    Heading = serif
+    Main text = sans-serif
 ---
 
 ## Preview
