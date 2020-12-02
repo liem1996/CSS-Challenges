@@ -34,6 +34,8 @@
 
 ## Style Guild
 
+Do not use the preview pictuer as an asset. it's there to help you so dont crop it and paste it in your project
+
 ### Colors:
     left decoration = gradient hsl(293, 100%, 63%) 33% to hsl(264, 100%, 61%) 66%
     right decoration = hsl(206, 6%, 79%)
